@@ -72,11 +72,7 @@ function checkWinner(type)
             setCount(type);
             break;
         }
-        else
-        {
-            winnerDiv.innerText = 'Tie';
-        }
-       
+        
     }
   
 
