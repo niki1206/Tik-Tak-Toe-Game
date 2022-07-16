@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Itim', cursive;
+}
+body{
+    background-color: rgb(211, 100, 255);
+}
+h1{
+  text-align: center;
+}
+       .container
+        {
+            margin-left: 500px;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width:300px;
+            height:300px;
+            border:2px solid  rgb(253, 80, 210);
+           
+        }
+        .container div{
+            display: flex;
+            width:96px;
+            height:97px;
+            justify-content: center;
+            align-items: center;
+            border:5px solid black;
+            font-size: 40px;
+            background-color:  rgb(253, 80, 210);
+        }  
+        .div:nth-child(3n){
+
+          border-right:none;
+        }  
+        .div:nth-child(n+1){
+
+          border-left:none;
+        }
+        .div:nth-child(n+7){
+
+          border-bottom:none;
+        }
+        .div:nth-child(n+1){
+
+          border-top:none;
+        }
+        .btn-reset{
+          color:white;
+          border:2px solid #eae3dc ;
+          background-color:rgb(20, 1, 31);
+          width:80px;
+          height:40px;
+          font-size: 18px;
+          border-radius: 8px;
+          margin-left: 540px;
+          margin-top: 30px;
+        }
+        .btn-restart{
+          color:white;
+          border:2px solid #eae3dc ;
+          background-color:rgb(20, 1, 31);
+          width:80px;
+          height:40px;
+          font-size: 18px;
+          border-radius: 8px;
+          margin-left: 80px;
+          margin-top: 30px;
+        }
+
+       .win{
+        margin-left: 540px;
+        margin-top: 20px;
+        font-size: 18px;
+       }
+       #winner{
+        text-align: center;
+       }
+       
